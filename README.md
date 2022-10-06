@@ -1,4 +1,2 @@
-## Data Diri Praktikan
-Nama : Bryan Marcellino Simanullang
-
-NIM : 105220050
+## Pemahaman Materi
+MAteri yang dipelajari adalah tentang Git, seperti apa itu VSC, command-command dalam git dan lain lain.
