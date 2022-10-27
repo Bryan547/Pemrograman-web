@@ -1,58 +1,147 @@
-.Demon{
-    margin-top: 7%;
+* {
+  margin: 0;
+  background: transparent;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  position: relative;
+  top: 30%;
+  font-family: "Lucida Sans";
+  color: black;
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: white;
+}
+
+a:hover,
+a:active {
+  color: black;
+}
+
+ul a {
+  text-decoration: none;
+  font-size: large;
+}
+
+.gambar {
+  flex: 1;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.data {
+  flex: 2;
+  text-align: center;
+  margin-left: 33%;
+  margin-right: auto;
+}
+
+.kolom {
+  flex: 3;
+  text-align: center;
+  margin-left: 17%;
+  margin-right: auto;
+}
+
+.Demon {
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1 {
+  color: palevioletred;
+}
+
+.text-wrap {
+  margin-left: 7%;
+  margin-right: 7%;
+  color: palevioletred;
+}
+
+.data-diri {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.kolom-gibah {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: palevioletred;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: palevioletred;
+  position: absolute;
+  bottom: -10;
+  left: 0;
+}
+
+table {
+  background-color: black;
+  color: palevioletred;
+}
+
+.bg {
+  background-color: black;
+
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+@media screen and (max-width: 500px) {
+  .gambar {
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .data {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  .kolom {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+
+  ul {
     display: block;
-}
-
-h1{
-    color: palevioletred;
-}
-
-.text-wrap{
-    margin-left: 7%;
-    margin-right: 7%;
-    color: palevioletred;
-}
-
-.data-diri{
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-.kolom-gibah{
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-.navbar{
-    height: 100px;
-    width: 100%;
-    background-color: palevioletred;
-    position: absolute;
+    margin: 0;
+    position: relative;
     top: 0;
-    left: 0;
-}
+  }
 
-.footer{
-    height: 100px;
-    width: 100%;
-    background-color: palevioletred;
-    position: absolute;
-    bottom: -10;
-    left: 0;
-}
-
-table{
-    background-color: black;
-    color: palevioletred;
-
-}
-
-.bg{
-    background-color: black;
-
-    left: 0;
-    right: 0;
-    position: absolute;
+  .data-diri,
+  .kolom-gibah {
+    margin-top: 17%;
+  }
 }
